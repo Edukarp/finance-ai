@@ -59,7 +59,7 @@ const TransactionsPieChart = ({
     },
   ];
   return (
-    <Card className="flex flex-col p-12">
+    <Card className="flex flex-col p-6">
       <CardContent className="flex-1 pb-0">
         <ChartContainer
           config={chartConfig}
@@ -74,7 +74,7 @@ const TransactionsPieChart = ({
               data={chartData}
               dataKey="amount"
               nameKey="type"
-              innerRadius={45}
+              innerRadius={55}
             />
           </PieChart>
         </ChartContainer>
